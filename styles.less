@@ -8,6 +8,24 @@
 @secondaryinfo: #BF9169;
 
 /* Fonts */
+/* The Afrah font is used for main page headings (H1) */
+@font-face {
+    font-family: 'afrah';
+    src: url('fonts/afrah/Afrah-Regular.eot');
+    src: url('fonts/afrah/Afrah-Regular.ttf') format('truetype'),
+        url('fonts/afrah/Afrah-Regular.woff') format('woff'),
+        url('fonts/afrah/Afrah-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* The Telegraf font is used for sub-headings (H2) */
+@font-face {
+    font-family: 'telegraf';
+    src: url('fonts/telegraf/PPTelegraf-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* Reset Styles */
 
@@ -37,7 +55,8 @@ header {
 section h1 {
     color: @nutriwhite;
     text-align: center;
-    font-size: 4em;
+    font-size: 5em;
+    font-family: afrah;
 }
 
 
