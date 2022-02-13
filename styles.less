@@ -50,9 +50,6 @@ header {
     height: 100px;
     width: 100%;
     nav {
-        width: 100%;
-        margin: 0 auto;
-        background-color: @secondarygreen;
         font-family: 'Open Sans', sans-serif;
         .nav-link {
             display: inline-block;
@@ -124,9 +121,6 @@ section h1 {
             font-size:;
             padding-left: 60px;
         }
-        figure img {
-            width: 100%;
-        }
     }
     .home-right {
     float: right;
@@ -146,6 +140,165 @@ section h1 {
     font-size: 22px;
     padding: 15px 40px;
     position: absolute;
-    bottom: 50px;
+    bottom: 100px;
     left: 160px;
 }
+
+/* - Section 3 - Contact Form Image*/
+
+#contact {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 150%;
+    margin: 0 auto;
+    padding: 0 10%;
+    color: @nutriwhite;
+    .contact {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        padding: 2%;
+        margin: 0 2%;
+        img{
+            width: 170%;
+            padding-bottom: 0% ;
+            text-align: center;
+            margin-left: 60px;
+            margin-right: 50px;
+        }
+        h2 {
+            font-family: telegraf;
+            text-transform: uppercase;
+            letter-spacing: .25em;
+            text-align: center;
+            padding: 3% 0;
+        }
+        
+    }
+}
+
+/* - Section 4 - Contact Form*/
+
+h1 {
+    font-size:30px;
+    color: #000000;
+    padding-top:10px;
+    text-align: center;
+    font-family: 'afrah';
+  }
+  
+  body { color:white }
+  
+  .f-input::placeholder {
+    color:black;
+    opacity:0.9;
+  }
+  
+  .f-input {
+    background-color: transparent;
+    border:.5px solid #000000;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+     color:black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:300;
+    font-size: 15px;
+    border-radius: 2px;
+    line-height: 22px;
+    text-align:left;
+  }
+  
+  .f-input:focus { 
+    border:2px solid #3a3939; }
+  
+  textarea {
+    height: 100px;
+    line-height: 150%;
+    resize:vertical;
+  }
+  
+  button {
+    max-width:450px;
+     font-family:'afrah';
+    width: 100%;
+    background:#000000;
+    border-radius:10px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+  text-align:center;
+    transition: all 0.3s;
+    font-weight:300; 
+  }
+  button:hover {
+    
+  }
+
+  /* - Section 3 - Meal Examples Grid*/
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    justify-content: center;
+    align-content: center;
+    grid-gap: 10px;
+    height: 100vh;
+  }
+  
+  .grid img {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+  }
+
+  h2 {
+    position:relative;
+    margin: -10px 60px 40px 50px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight:200;
+
+  }
+
+  h3 {
+    position:relative;
+    margin: -40px 80px 40px 50px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight:200;
+    padding: 13px;
+    margin-bottom: 15px;
+
+  }
+
+.healthyfood {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    width: 40%;
+    height: 30%;
+   }
+  
+   .footer {
+    position: fixed;
+    padding-top: 3px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2%;
+    background-color: black;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+   }
